@@ -80,8 +80,6 @@ Below we present sample results from our system. Audio samples are provided to d
 
 ### C. [Ablation Study] User Input: Text Description Only
 
-**Text Description:** "Heavy thunderstorm with pouring rain"
-
 | Rank | Similar Audio (from Soundly) |
 |------|---------------|
 | 1    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND60566.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
