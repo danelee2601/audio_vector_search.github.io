@@ -11,7 +11,7 @@ Welcome to the demo of our new method for Sound Effect Vector Search. This proje
 
 
 <div style="text-align: center;">
-  <img src="https://github.com/danelee2601/audio_vector_search.github.io/blob/main/.img/vector_search_method.png" alt="method" style="width: 90%;">
+  <img src="https://github.com/danelee2601/audio_vector_search.github.io/blob/main/.img/vector_search_method.png?raw=true" alt="method" style="width: 90%;">
 </div>
 
 The image illustrates a method for retrieving the most similar sound effects from a database based on a given input sound or text description, using vector search. Here's how the process works:
