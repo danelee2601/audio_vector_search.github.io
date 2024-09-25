@@ -52,7 +52,7 @@ Below we present sample results from our system. Audio samples are provided to d
 **Reference Audio:** (from the BBC sound effect library)
 
 <audio controls>
-  <source src=".audio/search_query/bicycle_bell.wav" type="audio/mpeg">
+  <source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/search_query/bicycle_bell.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
