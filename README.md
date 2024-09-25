@@ -11,7 +11,7 @@ Welcome to the demo of our new method for Sound Effect Vector Search. This proje
 
 
 <div style="text-align: center;">
-  <img src="https://github.com/danelee2601/audio_vector_search.github.io/blob/main/.img/vector_search_method.png?raw=true" alt="method" style="width: 90%;">
+  <img src="https://github.com/danelee2601/audio_vector_search.github.io/blob/main/.img/vector_search_method.png?raw=true" alt="method" style="width: 100%;">
 </div>
 
 The image illustrates a method for retrieving the most similar sound effects from a database based on a given input sound or text description, using vector search. Here's how the process works:
@@ -60,22 +60,22 @@ Below we present sample results from our system. Audio samples are provided to d
 
 | Rank | Similar Audio (from Soundly) |
 |------|---------------|
-| 1    | <audio controls><source src=".audio/soundly_samples/SND33601.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 2    | <audio controls><source src=".audio/soundly_samples/SND49674.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 3    | <audio controls><source src=".audio/soundly_samples/SND6604.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 4    | <audio controls><source src=".audio/soundly_samples/SND7698.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 5    | <audio controls><source src=".audio/soundly_samples/SND6605.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 1    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND33601.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 2    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND49674.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 3    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND6604.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 4    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND7698.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 5    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND6605.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
 
 ### B. [Ablation Study] User Input: Reference Audio Only
 
 | Rank | Similar Audio (from Soundly) |
 |------|---------------|
-| 1    | <audio controls><source src=".audio/soundly_samples/SND51963.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 2    | <audio controls><source src=".audio/soundly_samples/SND51962.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 3    | <audio controls><source src=".audio/soundly_samples/SND59826.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 4    | <audio controls><source src=".audio/soundly_samples/SND51960.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 5    | <audio controls><source src=".audio/soundly_samples/SND6604.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 1    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND51963.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 2    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND51962.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 3    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND59826.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 4    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND51960.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 5    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND6604.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
 
 ### C. [Ablation Study] User Input: Text Description Only
@@ -84,11 +84,14 @@ Below we present sample results from our system. Audio samples are provided to d
 
 | Rank | Similar Audio (from Soundly) |
 |------|---------------|
-| 1    | <audio controls><source src=".audio/soundly_samples/SND60566.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 2    | <audio controls><source src=".audio/soundly_samples/SND33601.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 3    | <audio controls><source src=".audio/soundly_samples/SND60565.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 4    | <audio controls><source src=".audio/soundly_samples/SND33602.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 5    | <audio controls><source src=".audio/soundly_samples/SND60571.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 1    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND60566.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 2    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND33601.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 3    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND60565.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 4    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND33602.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 5    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND60571.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+
+
+
 
 
 
@@ -97,7 +100,7 @@ Below we present sample results from our system. Audio samples are provided to d
 **Reference Audio:** (from the Game of Thrones, episode "The Bells"; you can hear the dragon at 11s!)
 
 <audio controls>
-  <source src=".audio/search_query/bell_game_of_throne.wav" type="audio/mpeg">
+  <source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/search_query/bell_game_of_throne.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -107,8 +110,8 @@ NB! Even if there's some noise (e.g., dragon roaring) included in a reference au
 
 | Rank | Similar Audio (from Soundly) |
 |------|---------------|
-| 1    | <audio controls><source src=".audio/soundly_samples/SND80488.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 2    | <audio controls><source src=".audio/soundly_samples/SND63543.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 3    | <audio controls><source src=".audio/soundly_samples/SND39627.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 4    | <audio controls><source src=".audio/soundly_samples/SND80491.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| 5    | <audio controls><source src=".audio/soundly_samples/SND63924.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 1    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND80488.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 2    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND63543.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 3    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND39627.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 4    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND80491.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 5    | <audio controls><source src="https://github.com/danelee2601/audio_vector_search.github.io/raw/refs/heads/main/.audio/soundly_samples/SND63924.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
