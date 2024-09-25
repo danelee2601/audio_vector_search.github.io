@@ -103,6 +103,8 @@ Below we present sample results from our system. Audio samples are provided to d
 
 **Text Description:** "The sound of a church bell."
 
+NB! Even if there's some noise (e.g., dragon roaring) included in a reference audio sample, a text description will guide the search so that users get what they want.
+
 | Rank | Similar Audio (from Soundly) |
 |------|---------------|
 | 1    | <audio controls><source src=".audio/soundly_samples/SND80488.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
@@ -110,4 +112,3 @@ Below we present sample results from our system. Audio samples are provided to d
 | 3    | <audio controls><source src=".audio/soundly_samples/SND39627.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 | 4    | <audio controls><source src=".audio/soundly_samples/SND80491.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 | 5    | <audio controls><source src=".audio/soundly_samples/SND63924.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-
