@@ -1,9 +1,7 @@
 # Sound Effect Vector Search Demo
 
 **Author:** Daesoo Lee  
-**Company:** HANCE  
 
----
 
 ## Introduction
 
@@ -12,7 +10,9 @@ Welcome to the demo of our new method for Sound Effect Vector Search. This proje
 ## Method
 
 
-![Sound Effect Vector Search](.img/vector_search_method.png)
+<div style="text-align: center;">
+  <img src=".img/vector_search_method.png" alt="method" style="width: 90%;">
+</div>
 
 The image illustrates a method for retrieving the most similar sound effects from a database based on a given input sound or text description, using vector search. Here's how the process works:
 
@@ -49,41 +49,65 @@ Below we present sample results from our system. Audio samples are provided to d
 
 ### A. User Input: Reference Audio + Text Description
 
-**Reference Audio:** [Audio Sample 1](.audio/search_query/bicycle_bell.wav)
-**Text Description:** "Crashing ocean waves with distant seagulls"
+**Reference Audio:** (from the BBC sound effect library)
 
-| Rank | Similar Audio |
+<audio controls>
+  <source src=".audio/search_query/bicycle_bell.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+**Text Description:** "The sound of a bicycle bell."
+
+| Rank | Similar Audio (from Soundly) |
 |------|---------------|
-| 1    | [Audio Match 1](#) |
-| 2    | [Audio Match 2](#) |
-| 3    | [Audio Match 3](#) |
-| 4    | [Audio Match 4](#) |
-| 5    | [Audio Match 5](#) |
+| 1    | <audio controls><source src=".audio/soundly_samples/SND33601.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 2    | <audio controls><source src=".audio/soundly_samples/SND49674.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 3    | <audio controls><source src=".audio/soundly_samples/SND6604.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 4    | <audio controls><source src=".audio/soundly_samples/SND7698.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 5    | <audio controls><source src=".audio/soundly_samples/SND6605.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
-### B. User Input: Reference Audio
 
-**Reference Audio:** [Audio Sample 2](#)
+### B. [Ablation Study] User Input: Reference Audio Only
 
-| Rank | Similar Audio |
+| Rank | Similar Audio (from Soundly) |
 |------|---------------|
-| 1    | [Audio Match 1](#) |
-| 2    | [Audio Match 2](#) |
-| 3    | [Audio Match 3](#) |
-| 4    | [Audio Match 4](#) |
-| 5    | [Audio Match 5](#) |
+| 1    | <audio controls><source src=".audio/soundly_samples/SND51963.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 2    | <audio controls><source src=".audio/soundly_samples/SND51962.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 3    | <audio controls><source src=".audio/soundly_samples/SND59826.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 4    | <audio controls><source src=".audio/soundly_samples/SND51960.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 5    | <audio controls><source src=".audio/soundly_samples/SND6604.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
-### C. User Input: Text Description
+
+### C. [Ablation Study] User Input: Text Description Only
 
 **Text Description:** "Heavy thunderstorm with pouring rain"
 
-| Rank | Similar Audio |
+| Rank | Similar Audio (from Soundly) |
 |------|---------------|
-| 1    | [Audio Match 1](#) |
-| 2    | [Audio Match 2](#) |
-| 3    | [Audio Match 3](#) |
-| 4    | [Audio Match 4](#) |
-| 5    | [Audio Match 5](#) |
+| 1    | <audio controls><source src=".audio/soundly_samples/SND60566.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 2    | <audio controls><source src=".audio/soundly_samples/SND33601.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 3    | <audio controls><source src=".audio/soundly_samples/SND60565.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 4    | <audio controls><source src=".audio/soundly_samples/SND33602.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 5    | <audio controls><source src=".audio/soundly_samples/SND60571.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
----
 
-Feel free to explore the demo and experience the seamless integration of audio and text in searching for the perfect sound effect.
+
+## Additional Experimental Results
+
+**Reference Audio:** (from the Game of Thrones, episode "The Bells"; you can hear the dragon at 11s!)
+
+<audio controls>
+  <source src=".audio/search_query/bell_game_of_throne.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+**Text Description:** "The sound of a church bell."
+
+| Rank | Similar Audio (from Soundly) |
+|------|---------------|
+| 1    | <audio controls><source src=".audio/soundly_samples/SND80488.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 2    | <audio controls><source src=".audio/soundly_samples/SND63543.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 3    | <audio controls><source src=".audio/soundly_samples/SND39627.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 4    | <audio controls><source src=".audio/soundly_samples/SND80491.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| 5    | <audio controls><source src=".audio/soundly_samples/SND63924.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+
