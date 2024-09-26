@@ -27,6 +27,13 @@ The image illustrates a method for retrieving the most similar sound effects fro
    - A **text description** of the desired sound effect, which is vectorized using the **CLAP text encoder**.
 
 5. **Similarity Search**: The system compares the input vector (from either the audio and/or text query) to the vectors stored in the Soundly vector database. Using similarity metrics, the system retrieves the **k most similar sound effect samples** to the input.
+    <details close>
+    <summary>Mathematical details of the similarity score</summary>
+    The similarity score is computed using a (joint) probability. For instance, given the query audio and text embedding vectors, denoted by $a_q$ and $t_q$, we measure correlation coefficients between the query vectors and the vectors in the database, eventually obtaining the coefficients for all vectors in the database. Those coefficients are clipped between 0 and 1 and used as probabilities. The probabilities are referred to as $p(a_i | a_q)$ and $p(a_i | t_q)$ where $a_i$ is the $i$-th vector in the vector database.
+
+    The joint porbability, $p(a_i | a_q, t_q)$, is what we want to obtain. This can be reexpressed as follows:
+    
+    </details>
 
 6. **Output**: The user receives the most similar sound effects from the database based on their input (either from an audio file or a brief text description).
 
